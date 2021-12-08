@@ -1,0 +1,12 @@
+
+number_1 = int(input('Enter your height in metres: '))
+number_2 = int(input('Enter your weight in kg: '))
+
+number_3 = float(number_2/(number_1*number_1))
+
+print(number_3)
+
+if number_3 >= 25: print ('consider losing weight')
+if number_3 <= 18: print('consider gaining some weight')
+if 18< number_3 > 20: print('great!')
+
